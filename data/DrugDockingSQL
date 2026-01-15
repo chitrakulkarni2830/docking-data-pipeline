@@ -1,0 +1,40 @@
+--1. The Leaderboard (Who is the best?)
+---This lists all drugs sorted by their score (remember, more negative is better).
+
+SELECT name, type, score 
+FROM screening_results 
+ORDER BY score ASC;
+--
+--2. Synthetic Inhibitors Only
+---This filters the list to show only the "Synthetic" drugs, ordered effectively.
+
+SELECT name, mw, score 
+FROM screening_results 
+WHERE type = 'Synthetic' 
+ORDER BY score ASC;
+
+--
+--3. Compare Groups (Average Score)
+---This creates a small summary table showing which group is stronger on average.
+
+SELECT type, AVG(score) as average_score 
+FROM screening_results 
+GROUP BY type;
+
+--
+--4. Heavyweights (Large Molecules)
+---This finds all drugs with a Molecular Weight (mw) greater than 400.
+
+SELECT name, mw, type 
+FROM screening_results 
+WHERE mw > 400 
+ORDER BY mw DESC;
+
+--
+--5. Lipophilic Candidates (Greasy Drugs)
+---This finds drugs that are relatively lipophilic (LogP > 0) and have a good score (better than -9.0).
+
+SELECT name, logp, score 
+FROM screening_results 
+WHERE logp > 0 AND score < -9.0 
+ORDER BY logp DESC;

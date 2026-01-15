@@ -1,0 +1,11 @@
+Name,Type,SMILES,Molecular Weight,LogP,Score
+Dihydrofolate,Natural,C1C(=NC2=C(N1)N=C(NC2=O)N)CNC3=CC=C(C=C3)C(=O)N[C@@H](CCC(=O)O)C(=O)O,443.4,0.01,-9.13
+Folic Acid,Natural,C1=CC(=CC=C1C(=O)N[C@@H](CCC(=O)O)C(=O)O)NCC2=CN=C3C(=N2)C(=O)NC(=N3)N,441.4,-0.0448,-7.5
+Tetrahydrofolate,Natural,C1C(NC2=C(N1)N=C(NC2=O)N)CNC3=CC=C(C=C3)C(=O)N[C@@H](CCC(=O)O)C(=O)O,445.4,-0.282,-8.37
+"7,8-Dihydrobiopterin",Natural,C[C@@H]([C@@H](C1=NC2=C(NC1)N=C(NC2=O)N)O)O,239.23,-1.4082,-8.14
+L-Methionine,Natural,CSCC[C@@H](C(=O)O)N,149.21,0.1514,-9.88
+Methotrexate,Synthetic,CN(CC1=CN=C2C(=N1)C(=NC(=N2)N)N)C3=CC=C(C=C3)C(=O)N[C@@H](CCC(=O)O)C(=O)O,454.4,0.2684,-9.0
+Pemetrexed,Synthetic,C1=CC(=CC=C1CCC2=CNC3=C2C(=O)NC(=N3)N)C(=O)N[C@@H](CCC(=O)O)C(=O)O,427.4,0.6664,-8.57
+Aminopterin,Synthetic,C1=CC(=CC=C1C(=O)N[C@@H](CCC(=O)O)C(=O)O)NCC2=CN=C3C(=N2)C(=NC(=N3)N)N,440.4,0.2441,-8.54
+Trimethoprim,Synthetic,COC1=CC(=CC(=C1OC)OC)CC2=CN=C(N=C2N)N,290.32,1.2576,-9.89
+Pyrimethamine,Synthetic,CCC1=C(C(=NC(=N1)N)N)C2=CC=C(C=C2)Cl,248.71,2.5238,-11.01
