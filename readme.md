@@ -12,7 +12,7 @@ A computational drug discovery pipeline that automates the retrieval, processing
 
 ## 🚀 Key Features
 
-*   ** automated Data Retrieval**: Fetches real-time chemical data (SMILES, Molecular Weight) from the **PubChem PUG REST API**.
+*   **Automated Data Retrieval**: Fetches real-time chemical data (SMILES, Molecular Weight) from the **PubChem PUG REST API**.
 *   **Cheminformatics**: Calculates key molecular descriptors like **LogP** (Lipophilicity) using **RDKit**.
 *   **Database Management**: Stores structured data in a local **SQLite** database (`results.db`).
 *   **Virtual Screening Simulation**: Simulates docking scores to model binding affinity.
