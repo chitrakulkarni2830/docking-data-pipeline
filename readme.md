@@ -7,7 +7,7 @@
 
 A computational drug discovery pipeline that automates the retrieval, processing, and analysis of chemical potential drug candidates. This project compares **Natural Substrates** vs. **Synthetic Inhibitors** to analyze binding affinity trends.
 
-![Header](output/header.png)
+![Header](assets/header.png)
 
 ## 🚀 Key Features
 
@@ -17,7 +17,7 @@ A computational drug discovery pipeline that automates the retrieval, processing
 *   **Virtual Screening Simulation**: Simulates docking scores to model binding affinity.
 *   **Visualization**: Generates a professional dashboard comparing Natural vs. Synthetic compounds.
 
-![Dashboard Preview](output/dashboard.png)
+![Dashboard Preview](assets/dashboard.png)
 
 ## 🛠️ Tech Stack
 
