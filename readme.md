@@ -5,6 +5,7 @@
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
 
+
 A computational drug discovery pipeline that automates the retrieval, processing, and analysis of chemical potential drug candidates. This project compares **Natural Substrates** vs. **Synthetic Inhibitors** to analyze binding affinity trends.
 
 ![Header](assets/header.png)
